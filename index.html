@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog satova</title>
+
+    <link rel="stylesheet" href="dist/output.css">
+    <script type="module" src="js/main.js"></script>
+</head>
+<body class="bg-slate-600 text-slate-100">
+    <main class="mx-auto max-w-5xl p-4">
+        <header class="mb-4">
+            <h1 class="text-2xl font-bold">Katalog satova</h1>
+            <p id="count" class="text-slate-200"></p>
+        </header>
+        <p id="loading">Učitavanje kataloga</p>
+        <div id="list" class="grid gap-4 sm:grid-cols-2 md:grid-cols-3"></div>
+        <p id="empty" class="hidden rounded-lg bg-white p-4 text-center">Trenutno nema satova za prikaz</p>
+
+    </main>
+</body>
+</html>
